@@ -1,0 +1,405 @@
+
+
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color:#F0F0F6;
+
+}
+.Home{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+}
+ .h1{
+  
+    font-size: 28px;
+}
+.Header p{
+    font-size: 18px;
+}
+.fn{
+    color:#FFB400F2 ;
+}
+.Header{
+  align-self: center;
+}
+
+.btn1{
+    background-color: #FFB400F2;
+    border: none;
+    height: 40px;
+    width: 130px;
+    padding-top: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.Header_Part2{
+    padding: 20px;
+    /* margin-left: 20px; */
+}
+
+.im1 ,.im2 ,.im3,.im4 ,.im5{
+    position: relative;
+ 
+}
+.im1{
+    top: -150px;
+}
+.im2{
+    top: -300px;
+}
+.im3{
+    left: -200px;
+}
+.im4{
+    top: -400px;
+}
+.im5{
+    left: 40px;
+}
+.imj{
+    position: relative;
+}
+.ser1{
+    border-radius: 15px;
+    font-size: 17px;
+}
+.btn1:hover{
+    color: #FFB400F2 ;
+    background-color:dimgrey;
+}
+.ser1:hover {
+    background-color:dimgrey;
+    color: #F0F0F6;
+}
+.Div_pertfollo:hover{
+    transition: 0.1s;
+    transform: translate(15px,15px);
+}
+@media (max-width:767px){
+    .Home{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .imj{
+        position: relative;
+        width:60%;
+    }
+    .Header{
+       
+        padding: 20px;
+padding-bottom: 10px;
+   z-index: 2;
+   align-self:self-start
+  
+    }
+    .im3{
+        left: 50px;
+    }
+  
+    .im5{
+        left: 50px;
+    }
+    .btn1{
+        margin: auto;
+      
+    }
+    .Header_Part2{
+        width: 100%;
+        padding: 2px;
+    }
+    .ser1{
+        margin: auto;
+    }
+
+}
+@media (min-width:768px) and (max-width:1023px){
+    .Header{
+        padding: 20px;
+    }
+}
+.servies{
+  
+    position: relative;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  gap: 30px;
+   text-align: center;
+    flex-direction: column;
+}
+.H_services{
+   margin-bottom: 20px;
+}
+.p{
+    font-size: 18px;
+}
+.data_services{
+    position: relative;
+   display: grid;
+   gap: 20px;
+   grid-template-columns: repeat(3,1fr);
+  
+
+}
+
+.ser1{
+    background-color:white;
+}
+@media (max-width:767px){
+    .servies{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+      gap: 30px;
+        margin: 5px;
+       
+    }
+    .data_services{
+       
+        width: 90%;
+        grid-template-columns: repeat(1,1fr);
+
+        
+    }
+    .ser1{
+        width: 100%;
+    }
+    .copy_right{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .nm{
+     width: 90px;
+     height: 80px;
+    }
+
+}
+@media (min-width:768px) and (max-width:1023px){
+    .data_services{
+        margin: 20px;
+        width: 90%;
+        grid-template-columns: repeat(2,1fr);
+
+        
+    }
+}
+.portfollo{
+    position: relative;
+    margin: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  gap: 30px;
+   text-align: center;
+    flex-direction: column;
+}
+.Data_Portfollo{
+    padding: 20p;
+    position: relative;
+   display: grid;
+   gap: 20px;
+   grid-template-columns: repeat(3,1fr);
+
+}
+.Div_pertfollo{
+    border-radius: 15px;
+}
+.img_p{
+    width:100%;
+    max-width: 100%;
+}
+@media (max-width:767px){
+    .portfollo{
+        width: 100%;
+       margin: 5p;
+
+    }
+    .Data_Portfollo{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+
+}
+.final{
+    position: relative;
+    margin: 10px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 25%;
+    justify-content: center;
+    align-items: center;
+  gap: 3%;
+ 
+   
+}
+
+.Contact{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Data_con{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ 
+
+}
+.d_con{
+    background-color: white;
+    padding: 7px;
+}
+.ph{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #FFB400F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  
+}
+.ph img{
+   height: 20px;
+   width: 20px;
+}
+.l{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    background-color: white;
+    display: grid;
+  
+    padding: 15px;
+}
+.f{
+    width: 100%;
+    max-width: 100%;
+}
+
+form input {
+  position: relative;
+  
+    height:50px;
+ 
+}
+textarea{
+    height:140px;
+}
+input ,textarea{
+    background-color:#F0F0F6;
+    border: none;
+    width: 100%;
+    max-width: 100%;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  
+}
+label {
+   margin:  15px;
+    text-align: start;
+    padding-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+.btn{
+    background-color:#FFB400F2 ;
+    border: none;
+    height: 40px;
+    width: 150px;
+    color: black;
+    border-radius: 15px;
+    color: 17px;
+}
+.btn:hover{
+    background-color:dimgrey;
+    color: #FFB400F2 ;
+}
+
+@media (max-width:767px){
+    .final{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Contact{
+        width: 90%;
+       margin: auto;
+    }
+    .form{
+        width: 90%;
+    }
+
+}
+@media (min-width:768px) and (max-width:1023px){
+    .final{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Contact{
+        width: 90%;
+       margin: auto;
+    }
+    .form{
+        width: 90%;
+    }
+    .Data_con{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+.copy_right{
+  margin: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ 
+}
+@media (max-width:767px){
+
+    .copy_right{
+        width: 80%;
+    }
+
+}
+@media (min-width:768px) and (max-width:1023px){
+    .copy_right{
+        width: 80%;
+    }
+}
+    
+.footer{
+
+    text-align: center;
+    font-size: 20px;
+}
